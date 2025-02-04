@@ -99,3 +99,19 @@ body {
     background: transparent;
     color: #333;
 }
+
+@media (max-width: 500px) {
+    .quote-box h2 {
+        font-size: 20px;
+    }
+
+    .quote-box blockquote {
+        font-size: 18px;
+    }
+
+    .quote-box button {
+        width: 120px;
+        height: 40px;
+        font-size: 14px;
+    }
+}

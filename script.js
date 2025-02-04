@@ -17,7 +17,7 @@ function getNewQuote() {
         author.textContent = data[0].author;
     }));
 }
-
+getNewQuote()
 
 function tweet() {
     window.open("https://twitter.com/intent/tweet?text=" + quote.textContent + "--- by" + author.textContent, "Tweet Window", "width=600, height = 300");
